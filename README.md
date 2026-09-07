@@ -149,6 +149,8 @@ During DRM-X user creation or license delivery, the plugin may send the WordPres
 
 **DRM-X 5.0 LearnPress 集成插件**用于连接 WordPress、LearnPress、DRM-X 5.0 和 ZJGet 播放器。用户必须登录 WordPress，并拥有有效的 LearnPress 课程学习状态，才能获取加密视频许可证。
 
+[查看完整中文集成使用指南（PDF）](https://github.com/Haihaisoft/drm-x5-learnpress-plugin/raw/refs/heads/main/docs/DRM-X-5.0-learnpress-integration-user-guide-zh-CN-v1.0.0.pdf)
+
 主要功能：
 
 - 验证 WordPress 登录和 LearnPress 课程加入状态。
