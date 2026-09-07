@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DRM-X 5.0 Integration for LearnPress 1.0.0\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Integrates DRM-X 5.0 protected content and the ZJGet player with WordPress and LearnPress."
+msgstr "将 DRM-X 5.0 加密内容及 ZJGet 播放器与 WordPress 和 LearnPress 集成。"
+
+msgid "The DRM-X 5.0 LearnPress integration plugin is not active."
+msgstr "DRM-X 5.0 LearnPress 集成插件尚未启用。"
+
+msgid "Unable to obtain DRM-X license"
+msgstr "无法获取 DRM-X 许可证"
+
+msgid "The ZJGet player URL must start with http:// or https://."
+msgstr "ZJGet 播放地址必须以 http:// 或 https:// 开头。"
+
+msgid "ZJGet protected video (player disabled while editing)"
+msgstr "ZJGet 加密视频（编辑模式下不加载播放器）"
+
+msgid "Only one ZJGet player can be displayed on the same page."
+msgstr "同一页面只能显示一个 ZJGet 播放器。"
+
+msgid "DRM-X 5.0 Integration requires LearnPress to be installed and activated."
+msgstr "DRM-X 5.0 集成需要安装并启用 LearnPress。"
+
+msgid "The PHP SOAP extension is not enabled on this WordPress server."
+msgstr "此 WordPress 服务器尚未启用 PHP SOAP 扩展。"
+
+msgid "DRM-X could not check the user account. Service response: %s"
+msgstr "DRM-X 无法检查用户账号。服务返回：%s"
+
+msgid "DRM-X could not create the user account. Service response: %s"
+msgstr "DRM-X 无法创建用户账号。服务返回：%s"
+
+msgid "DRM-X did not return a valid user revocation status."
+msgstr "DRM-X 没有返回有效的用户吊销状态。"
+
+msgid "Your account has been revoked. You cannot obtain a license. Please contact the site administrator."
+msgstr "您的账号已被吊销，不能获取许可证，请联系网站管理员。"
+
+msgid "DRM-X did not return valid user details."
+msgstr "DRM-X 没有返回有效的用户资料。"
+
+msgid "Your account has been locked. You cannot obtain a license. Please contact the site administrator."
+msgstr "您的账号已被锁定，不能获取许可证，请联系网站管理员。"
+
+msgid "DRM-X could not update the permission. Service response: %s"
+msgstr "DRM-X 无法更新权限。服务返回：%s"
+
+msgid "The DRM-X request is missing a required parameter."
+msgstr "DRM-X 请求缺少必要参数。"
+
+msgid "ZJGet did not POST a RightsID. Check the permission mode and DRM-X License Profile."
+msgstr "ZJGet 没有通过 POST 提交 RightsID，请检查权限模式和 DRM-X 许可证模板。"
+
+msgid "The DRM-X return URL is invalid."
+msgstr "DRM-X 返回地址无效。"
+
+msgid "DRM-X 5.0 Integration"
+msgstr "DRM-X 5.0 集成"
+
+msgid "DRM-X 5.0"
+msgstr "DRM-X 5.0"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "DRM-X 5.0 Integration for LearnPress"
+msgstr "DRM-X 5.0 LearnPress 集成"
+
+msgid "DRM-X 5.0 account"
+msgstr "DRM-X 5.0 账号"
+
+msgid "The administrator email address of the DRM-X 5.0 account."
+msgstr "DRM-X 5.0 管理员账号的电子邮箱。"
+
+msgid "The Web Service Authorization String configured in DRM-X 5.0."
+msgstr "在 DRM-X 5.0 后台设置的 Web Service Authorization String。"
+
+msgid "The DRM-X 5.0 user group ID used when creating users and issuing licenses."
+msgstr "创建 DRM-X 用户和签发许可证时使用的 DRM-X 5.0 用户组 ID。"
+
+msgid "DRM-X service area"
+msgstr "DRM-X 服务区域"
+
+msgid "International (5.drm-x.com)"
+msgstr "国际版（5.drm-x.com）"
+
+msgid "China (5.drm-x.cn)"
+msgstr "中国版（5.drm-x.cn）"
+
+msgid "Select the service domain associated with your DRM-X account."
+msgstr "请选择该 DRM-X 账号所属的接口区域。"
+
+msgid "Permission source"
+msgstr "权限来源"
+
+msgid "RightsID mode"
+msgstr "RightsID 模式"
+
+msgid "Fixed RightsID and automatically update permission"
+msgstr "使用固定 RightsID 并自动更新权限"
+
+msgid "Read the License Profile RightsID from ZJGet POST data"
+msgstr "从 ZJGet POST 数据读取许可证模板的 RightsID"
+
+msgid "Fixed mode updates the configured permission. POST mode uses the RightsID supplied from the DRM-X License Profile through ZJGet and does not update it."
+msgstr "固定模式会更新配置的权限；POST 模式使用 DRM-X 许可证模板通过 ZJGet 提交的 RightsID，不更新权限。"
+
+msgid "Fixed RightsID"
+msgstr "固定 RightsID"
+
+msgid "Required only in fixed mode. The plugin updates this permission before obtaining the license."
+msgstr "仅固定模式需要。插件会在获取许可证前更新此权限。"
+
+msgid "Integration address"
+msgstr "集成地址"
+
+msgid "Set the DRM-X custom login/integration URL to:"
+msgstr "请把 DRM-X 自定义登录/集成地址设置为："
+
+msgid "LearnPress course IDs"
+msgstr "LearnPress 课程 ID"
+
+msgid "Enter the WordPress post ID of the LearnPress course in the DRM-X License Profile YourProductID field. Separate multiple course IDs with a hyphen, for example: 123-124."
+msgstr "请在 DRM-X 许可证模板的 YourProductID 字段中填写 LearnPress 课程的 WordPress 文章 ID。多个课程 ID 使用连字符分隔，例如：123-124。"
+
+msgid "Embed a protected video"
+msgstr "嵌入加密视频"
+
+msgid "No pending DRM-X license request was found. Please open the protected content again."
+msgstr "没有找到待处理的 DRM-X 许可证请求，请重新打开加密内容。"
+
+msgid "DRM-X AdminEmail, WebServiceAuthStr or GroupID has not been configured by the site administrator."
+msgstr "网站管理员尚未配置 DRM-X AdminEmail、WebServiceAuthStr 或 GroupID。"
+
+msgid "LearnPress is not installed or activated."
+msgstr "LearnPress 尚未安装或启用。"
+
+msgid "Your account is not actively enrolled in any course assigned to this protected content."
+msgstr "您的账号没有有效加入该加密内容对应的任何课程。"
+
+msgid "Fixed RightsID mode is enabled, but no Fixed RightsID has been configured."
+msgstr "已启用固定 RightsID 模式，但尚未配置固定 RightsID。"
+
+msgid "The matched LearnPress course dates are invalid and cannot be used to update the DRM-X permission."
+msgstr "匹配的 LearnPress 课程日期无效，无法用于更新 DRM-X 权限。"
+
+msgid "The DRM-X service request failed. Please contact the site administrator."
+msgstr "调用 DRM-X 服务失败，请联系网站管理员。"
+
+msgid "DRM-X rejected the license request: %s"
+msgstr "DRM-X 拒绝了许可证请求：%s"
+
+msgid "Open protected content"
+msgstr "打开加密内容"
